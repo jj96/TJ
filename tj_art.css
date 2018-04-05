@@ -1,22 +1,36 @@
+/* Logo and Headline/motto*/
+
+.logo{
+  overflow:hidden;
+  position:fixed;
+  top:0;
+  width:100%;
+  text-align: center;
+}
+
+/*Motto*/
+
 .jumbotron{
+  position:fixed;
+  top:300;
+  width:100%;
   text-align: center;
   font-size: 30px;
 }
 
+/*Nav Bar*/
+
+.nav{
+  overflow:hidden;
+  position:fixed;
+  top:375;
+  width:100%;
+}
+
+/*Body*/
+
 body{
-position: fixed;
 align-content: center;
     font-size: 25px;
   font-style: normal;
-}
-
-.logo{
-  width:100%;
-  text-align: center;
-
-}
-
-.nav{
-  align-items: center;
-  width:100%;
 }
