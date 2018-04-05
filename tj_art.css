@@ -15,3 +15,8 @@ align-content: center;
   text-align: center;
 
 }
+
+.nav{
+  align-items: center;
+  width:100%;
+}
