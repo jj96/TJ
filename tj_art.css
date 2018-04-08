@@ -8,32 +8,38 @@
   text-align: center;
 }
 
-/*Motto*/
-
-.header{
-  position:fixed;
-  top:330;
-  width:100%;
-  text-align: center;
-  font-size: 30px;
-}
 
 /*Nav Bar*/
 
 .nav{
   overflow:hidden;
   position:fixed;
-  top:375;
+  top:220;
   width:100%;
 }
 
 .welcome{
   position:fixed;
-  top:500;
+  top:300;
   width:100%;
   font-size: 20px;
 }
 
+/*Main Content*/
+
+.main{
+margin-top: 50px;
+}
+
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  size: 1%;
+}
 /*Body*/
 
 body{
@@ -41,4 +47,10 @@ body{
 align-content: center;
     font-size: 25px;
   font-style: normal;
+}
+
+.footer{
+  position:static;
+  top:auto;
+  width: 100%;
 }
