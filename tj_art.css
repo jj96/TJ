@@ -49,6 +49,15 @@ align-content: center;
   font-style: normal;
 }
 
+.portfolio-row-padding, portfolio-row-padding>.portfolio-half,.portfolio-row-padding>.portfolio-third, .portfolio-row-padding>.portfolio-twothird,.portfolio-row-padding>.portfolio-threequarter,.portfolio-row-padding>.portfolio-quarter,.portfolio-row-padding>.portfolio-col{
+  padding-top: 0px;
+  padding-right: 8px;
+  padding-bottom: 0px;
+  padding-left: 8px;
+}
+
+}
+
 .footer{
   position:static;
   top:auto;
