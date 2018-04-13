@@ -1,31 +1,13 @@
 /* Logo and Headline/motto*/
-
-.logo{
-  margin-top: 20px;
-  overflow:hidden;
-  position:fixed;
-  top:0;
-  width:100%;
-  text-align: center;
-}
-
-/*Nav Bar*/
-
-.nav{
-  margin-top:10px;
-  overflow:hidden;
-  position:fixed;
-  top:220;
-  width:100%;
-}
-
 .header_logo{
   margin-top:30px;
 }
 
+/*Nav Bar*/
 .header_nav a{
   padding-right:10px;
   color: grey;
+  font-size: 25px;
 }
 
 .img-responsive{
@@ -51,25 +33,10 @@ img {
   flex-wrap: wrap;
 }
 
-.header{
-  position: relative;
-  padding: 30px;
-  text-align: center;
-}
-
-.welcome{
-  position:fixed;
-  top:300;
-  width:100%;
-  font-size: 20px;
-}
-
 /*Main Content*/
-
 .main{
 margin-top: 50px;
 }
-
 
 .center{
   display: block;
@@ -77,6 +44,10 @@ margin-top: 50px;
   margin-right: auto;
   width: 10%;
   size: 1%;
+}
+
+.art_text{
+  font-size: 30px;
 }
 /*Body*/
 
