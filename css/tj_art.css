@@ -26,6 +26,7 @@ img {
 .container_row{
   display: flex;
   justify-content: space-evenly;
+  background-color:grey;
 }
 
 .container_column{
@@ -50,7 +51,9 @@ margin-top: 50px;
   margin-top:20px;
   font-size: 20px;
   line-height:0.7px;
+  text-align:center;
 }
+
 .headline{
   font-size: 30px;
 }
