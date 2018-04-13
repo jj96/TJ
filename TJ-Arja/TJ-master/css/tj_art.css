@@ -33,15 +33,13 @@ body{
   text-align:center;
   color:grey;
 }
+
+/*headline=title of page*/
 .headline{
   font-size: 30px;
 }
-.footer{
-  margin-top:20px;
-  position:static;
-  top:auto;
-  width: 100%;
-}
+
+
 
 .img-responsive{
    width:170px;
@@ -52,14 +50,11 @@ img {
   max-width: 100%;
 }
 
-.layout{
-  margin: 10px;
-}
-/*portfolio*/
+/*portfolio page*/
 .container_row{
   display: flex;
   justify-content: space-evenly;
-  background-color:grey;
+  
 }
 
 .container_column{
@@ -73,7 +68,16 @@ img {
     padding: 10px 50px;
 }
 
+/* caption for images*/
 .caption{
   font-size: 20px;
-  line-height:0.1px;
+  line-height: 10px;
+}
+
+/*footer - Instagram*/
+.footer{
+  margin-top:20px;
+  position:static;
+  top:auto;
+  width: 100%;
 }
