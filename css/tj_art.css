@@ -46,7 +46,12 @@ margin-top: 50px;
   size: 1%;
 }
 
-.art_text{
+.art_main{
+  margin-top:20px;
+  font-size: 20px;
+  line-height:0.7px;
+}
+.headline{
   font-size: 30px;
 }
 /*Body*/
