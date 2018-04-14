@@ -59,11 +59,7 @@ img {
 .container_row{
   display: flex;
   justify-content: space-evenly;
-<<<<<<< HEAD
-  background-color:grey;
-=======
 
->>>>>>> cf2b43e5a28a8cd96efbf06aaa4672794273d9bc
 }
 
 .container_column{
