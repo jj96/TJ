@@ -59,7 +59,11 @@ img {
 .container_row{
   display: flex;
   justify-content: space-evenly;
+<<<<<<< HEAD
   background-color:grey;
+=======
+
+>>>>>>> cf2b43e5a28a8cd96efbf06aaa4672794273d9bc
 }
 
 .container_column{
@@ -75,6 +79,18 @@ img {
 
 .caption{
   font-size: 20px;
+<<<<<<< HEAD
   line-height:0.1px;
   color:grey;
+=======
+  line-height: 10px;
+  color: grey;
+}
+/*footer - Instagram*/
+.footer{
+  margin-top:20px;
+  position:static;
+  top:auto;
+  width: 100%;
+>>>>>>> cf2b43e5a28a8cd96efbf06aaa4672794273d9bc
 }
