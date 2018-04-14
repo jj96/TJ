@@ -1,0 +1,75 @@
+
+
+/* Logo and Headline/motto*/
+
+.logo{
+  overflow:hidden;
+  /* position:fixed; */
+  top:0;
+  width:100%;
+  text-align: center;
+}
+
+
+/*Nav Bar*/
+
+.nav{
+  overflow:hidden;
+  /* position:fixed; */
+  top:220;
+  width:100%;
+  font-family: "palantino linotype";
+}
+
+.welcome{
+  position:fixed;
+  top:300;
+  width:100%;
+  font-size: 20px;
+  font-family: "palantino linotype";
+}
+
+/*Main Content*/
+
+.main{
+margin-top: 30px;
+}
+
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  size: 1%;
+}
+/*Body*/
+
+body{
+  overflow-y: auto;
+  align-content: center;
+  font-size: 25px;
+  font-family: "palantino linotype";
+  }
+
+
+.col-md-4{
+  float: left;
+}
+
+.boats_caption{
+  font-size: 25px;
+}
+
+.caption{
+  font-size: 15px;
+}
+
+}
+.footer{
+  position:relative;
+  top:auto;
+  width: 100%;
+  position:center;
+}
