@@ -22,7 +22,7 @@ a{
 .art_main{
   margin-top:20px;
   font-size: 20px;
-  line-height:5px;
+  line-height:0.7px;
   text-align:center;
   padding-bottom:20px;
 }
@@ -37,11 +37,18 @@ body{
   text-align:center;
   color:grey;
 }
-
-/*headline=title of page*/
 .headline{
   font-size: 30px;
 }
+<<<<<<< HEAD
+=======
+.footer{
+  margin-top:20px;
+  position:static;
+  top:auto;
+  width: 100%;
+}
+>>>>>>> 93f70d1fc7b8ed4b12a9128465a107e64e087b27
 
 .img-responsive{
    width:170px;
@@ -52,7 +59,10 @@ img {
   max-width: 100%;
 }
 
-/*portfolio page*/
+.layout{
+  margin: 10px;
+}
+/*portfolio*/
 .container_row{
   display: flex;
   justify-content: space-evenly;
@@ -69,15 +79,19 @@ img {
     padding: 10px 50px;
 }
 
-/* caption for images*/
 .caption{
   font-size: 20px;
+<<<<<<< HEAD
+  line-height:0.1px;
+  color:grey;
+=======
   line-height: 10px;
   color: grey;
 }
 /*footer - Instagram*/
 .footer{
   margin-top:20px;
+<<<<<<< HEAD
   padding-bottom:20px;
   display:flex;
   flex-direction:column;
@@ -87,4 +101,10 @@ img {
   height:5%;
   margin:auto;
   padding-bottom:20px;
+=======
+  position:static;
+  top:auto;
+  width: 100%;
+>>>>>>> cf2b43e5a28a8cd96efbf06aaa4672794273d9bc
+>>>>>>> 93f70d1fc7b8ed4b12a9128465a107e64e087b27
 }
