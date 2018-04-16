@@ -6,7 +6,6 @@
 /*Nav Bar*/
 .header_nav a{
   padding-right:10px;
-  color: grey;
   font-size: 25px;
 }
 
@@ -15,10 +14,14 @@
   margin-top: 50px;
 }
 
+a{
+  text-decoration: none;
+  color:grey;
+}
 .art_main{
   margin-top:20px;
   font-size: 20px;
-  line-height:0.7px;
+  line-height:5px;
   text-align:center;
   padding-bottom:20px;
 }
@@ -33,14 +36,10 @@ body{
   text-align:center;
   color:grey;
 }
+
+/*headline=title of page*/
 .headline{
   font-size: 30px;
-}
-.footer{
-  margin-top:20px;
-  position:static;
-  top:auto;
-  width: 100%;
 }
 
 .img-responsive{
@@ -52,14 +51,11 @@ img {
   max-width: 100%;
 }
 
-.layout{
-  margin: 10px;
-}
-/*portfolio*/
+/*portfolio page*/
 .container_row{
   display: flex;
   justify-content: space-evenly;
-  background-color:grey;
+
 }
 
 .container_column{
@@ -73,8 +69,23 @@ img {
     padding: 10px 50px;
 }
 
+/* caption for images*/
 .caption{
   font-size: 20px;
-  line-height:0.1px;
-  color:grey;
+  line-height: 10px;
+}
+/*footer - Instagram*/
+.footer{
+  display: inline-table;
+  margin-top:20px;
+  padding-bottom: 60px;
+  position:static;
+  top:auto;
+  width: 100%
+}
+.instagram{
+  width:5%;
+  height:5%;
+  margin:auto;
+  padding-bottom:20px;
 }
