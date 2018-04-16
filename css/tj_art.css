@@ -8,26 +8,18 @@
   padding-right:10px;
   font-size: 25px;
 }
-
-/*Main Content*/
-.main{
-  margin-top: 50px;
-}
-
+/*body*/
 a{
   text-decoration: none;
   color:grey;
 }
-.art_main{
-  margin-top:20px;
+.main{
+  margin-top:50px;
   font-size: 20px;
   line-height:5px;
   text-align:center;
   padding-bottom:20px;
 }
-
-/*Body*/
-
 body{
   overflow-y: auto;
   align-content: center;
@@ -36,45 +28,33 @@ body{
   text-align:center;
   color:grey;
 }
-
-/*headline=title of page*/
 .headline{
   font-size: 30px;
 }
-
 .img-responsive{
    width:170px;
    height:200px;
 }
-
-img {
-  max-width: 100%;
-}
-
 /*portfolio page*/
 .container_row{
   display: flex;
   justify-content: space-evenly;
 
 }
-
 .container_column{
   display: flex;
   flex-wrap: wrap;
 }
-
 .col{
   margin: auto;
     width: 25%;
     padding: 10px 50px;
 }
-
-/* caption for images*/
 .caption{
   font-size: 20px;
   line-height: 10px;
 }
-/*footer - Instagram*/
+/*footer*/
 .footer{
   display: inline-table;
   margin-top:20px;
@@ -88,4 +68,7 @@ img {
   height:5%;
   margin:auto;
   padding-bottom:20px;
+}
+img {
+  max-width: 100%;
 }
